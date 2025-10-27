@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador PM - Questões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header__content">
+            <h1 class="titulo">Simulado para o concurso de Soldado-PM </h1>
+                <img src="bandeira_sp.png" alt="bandeira_do_estado_de_sp" class="bandeira__sp"> 
+            </div>
+            <p>Prepare-se com questões de concursos passados</p>
+        </header>
+        <div id="tela__inicial" class="tela__ativa">
+            <div class="card__inicio">
+            <h2>Bem-vindo!</h2>
+            <p>Você responderá a <strong>60 Questões</strong> aleatórias.</p>
+            <button id="btn__iniciar" class="btn__primario">Iniciar Simulado</button>
+        </div>
+    </div>
+
+    <div id="tela__simulado" class="tela">
+        <div class="cabecalho__simulado">
+            <div class="progresso">
+                <span id="contador__questao">Questão 1/30</span>
+                <div id="progresso__barra"></div>
+                </div>
+            </div>
+        </div>
+
+    <div class="questao__container">
+        <div id="questao__atual" class="questao">
+            <!--Questão será inserida aqui via JavaScript-->
+        </div>
+
+        <div class="navegacao">
+            <button id="btn__anterior" class="btn__secundario">Anterior</button>
+            <button id="btn__proxima" class="btn__secundario">Próxima</button>
+            <button id="btn__finalizar" class="btn__destaque">Finalizar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tela de Resultados -->
+    <div id="tela__resultado" class="tela">
+        <div class="resultados__container">
+            <h2>Seu Resultado</h2>
+            <div id="resultado__info"></div>
+            <div id="gabarito__completo"></div>
+            <button id="btn__novo__simulado" class="btn__primario"> Fazer novo simulado</button>
+        </div>
+    </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
