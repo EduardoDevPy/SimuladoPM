@@ -42,7 +42,8 @@ Este projeto nasceu com o propósito de democratizar o acesso ao conteúdo, ofer
 
 **DEMONSTRAÇÃO**
 
-![Prévia do site](Preview.png)
+<img width="1917" height="956" alt="Preview" src="https://github.com/user-attachments/assets/0e108df8-be4d-4e7c-98a2-3ebd9130627c" />
 
 
 👨‍💻 Autor: Eduardo Vieira (https://github.com/EduardoDevPy)
+
